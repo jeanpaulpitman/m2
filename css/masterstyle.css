@@ -949,7 +949,14 @@ div.panel {
 	}	
 	
 /* Wrap text around image*/
-.img-wrap {
+.img-wrap-left {
 	float:left;
+	clear: both;
 	margin: 0 1em 1em 1em;
-}	
+}
+
+.img-wrap-right {
+	float:right;
+	clear: both;
+	margin: 0 1em 1em 1em;
+}
