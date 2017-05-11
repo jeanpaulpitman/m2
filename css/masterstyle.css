@@ -675,6 +675,10 @@ ul.breadcrumb li a:hover {
 	padding:1em;
 }
 
+.gallery h3 {
+	margin-left:1em;
+}
+
 .gallery section{
     width:100%;
     box-shadow: 0 0 10px 2px #ccc;
