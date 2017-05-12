@@ -1005,13 +1005,21 @@ div.panel {
     border-radius: .25em;
     box-sizing: border-box;
 	}
-	
+
 .block-forms label {
 	display: inline-block;
 	font-family:'rubikregular';
 	font-size:1.3em;
 	text-align:right;
 	width: 35%;
+}
+	
+@media only screen and (max-width:400px){
+.block-forms label, input, select , textarea  {
+    width:100%;
+	text-align:left;
+   }
+    
 }
 
 #inquiry label {
