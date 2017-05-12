@@ -835,7 +835,6 @@ div.panel {
 	width: 90%;
 	margin: 2em auto;
 	overflow; hidden;
-	
 	}
 
 .container-details h1,h2 {
@@ -846,6 +845,19 @@ div.panel {
 .container-details p {
 	text-align: left;
     text-indent: 2em;
+	padding:.5em;
+}
+
+.container-privacy {
+	background-color:white;
+	border-radius: 15px;
+	padding:1em;
+	width: 90%;
+	margin: 2em auto;
+	overflow; hidden;
+	}
+	
+.container-privacy p {
 	padding:.5em;
 }
 
