@@ -977,3 +977,93 @@ div.panel {
 	clear: both;
 	margin: 0 1em 1em 1em;
 }
+
+/*Forms Styles*/
+.block-forms form {
+	display:block;
+	margin:.5em;
+	padding:0;
+	width:96%;
+	max-width:50em;
+	overflow:visible
+	}
+
+.block-forms div, input {
+	display:block;
+	line-height:1em;
+	padding:.5em;
+	width:auto;
+	font:italic 1.125em Helvetica;
+	}
+	
+.block-forms input, select , textarea {
+    width: 62%;
+    padding: .75em 1.125em;
+    margin: .5em 0;
+    display: inline-block;
+    border: 1px solid #8b834d;
+    border-radius: .25em;
+    box-sizing: border-box;
+	}
+	
+.block-forms label {
+	display: inline-block;
+	font-family:'rubikregular';
+	font-size:1.3em;
+	text-align:right;
+	width: 35%;
+}
+
+#inquiry label {
+	vertical-align:top;
+}
+
+#newsletter label {
+	width:80%;
+}
+
+#newsletter input {
+	width:15%;
+}
+
+.block-forms input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: .75em 1.125em;
+    margin: .5em 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	}
+
+.block-forms input[type=submit]:hover {
+    box-shadow: 0 .75em 1em 0 rgba(0,0,0,0.24), 0 1.1em 3.2em 0 rgba(0,0,0,0.19);
+	}
+
+.block-forms input[id=days] {
+	display:inline-block;
+	}
+
+.block-forms input[type=submit] {
+	background-color:#5DBC31;
+	}
+	
+.block-forms input[type=submit]:hover {
+    background-color: #FE9920;
+	}
+
+.block-forms input:focus {
+    background-color: lightgreen;
+	}
+
+/* Double-sized Checkboxes */
+.block-forms input[type=checkbox] {
+	-ms-transform: scale(2); /* IE */
+	-moz-transform: scale(2); /* FF */
+	-webkit-transform: scale(2); /* Safari and Chrome */
+	-o-transform: scale(2); /* Opera */
+	padding: .5em;
+	}
+	
+	
