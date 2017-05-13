@@ -108,11 +108,11 @@ th, td	{
 	}
 
 						
-a:link { color: #FE9920; }
-a:visited { color: white; }
+a:link { color: teal; }
+a:visited { color: purple; }
 a:focus { color: black; }
 a:hover { color: #5DBC31; }
-a:active { color: red; }
+a:active { color: teal; }
 			
 
 			
@@ -1011,6 +1011,7 @@ div.panel {
 	font-family:'rubikregular';
 	font-size:1.3em;
 	text-align:right;
+	vertical-align:top;
 	width: 35%;
 }
 	
@@ -1022,10 +1023,6 @@ div.panel {
     
 }
 
-#inquiry label {
-	vertical-align:top;
-}
-
 #newsletter label {
 	width:80%;
 }
@@ -1033,7 +1030,7 @@ div.panel {
 #newsletter input {
 	width:15%;
 }
-
+ 
 .block-forms input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
