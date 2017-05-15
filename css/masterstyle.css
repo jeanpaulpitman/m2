@@ -978,6 +978,12 @@ div.panel {
 	margin: 0 1em 1em 1em;
 }
 
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 /*Forms Styles*/
 .block-forms form {
 	display:block;
