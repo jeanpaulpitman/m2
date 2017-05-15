@@ -970,6 +970,15 @@ div.panel {
 	padding-top:.5em;
 	padding-left:.5em;
 	}
+	
+/* Concert List*/
+.list-events {
+	padding:2em;
+	padding-top:0;
+	margin-left:2em;
+	list-style: none;
+	line-height:1.5;
+}
 
 /* Image Styles*/
 
@@ -1124,9 +1133,10 @@ form#multiphase{
 form#multiphase > #phase2, #phase3, #show_all_data{ 
 	display:none; 
 	}
+	
 #progressBar {
 	width:90%;
-	position:center;
+	margin:auto auto;
 }
 
 .pricing {
