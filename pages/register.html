@@ -119,11 +119,20 @@
 							<h3 id="status">Phase 1 of 3</h3>
 							<form id="multiphase" onsubmit="return false">
 							  <div id="phase1">
-								First Name: <input id="firstname" name="firstname"><br>
-								Last Name: <input id="lastname" name="lastname"><br>
+								<label for="email">Email address:(User Name)<span class="red">*</span></label>
+								<input type="email" id="email" name="email" required aria-required="true">
+								<label for="password">Password:<span class="red">*</span></label>
+								<input type="password" id="password" name="password" required aria-required="true">
+								<label for="password2">Confirm Password:<span class="red">*</span></label>
+								<input type="password" id="password2" name="password2" required aria-required="true">
+								
 								<button class="right-side continue" onclick="processPhase1()">Continue</button>
 							  </div>
 							  <div id="phase2">
+								<label for="firstname">First Name:<span class="red">*</span></label>
+								<input type="text" id="firstname" name="firstname" required aria-required="true">
+								<label for="lastname">Last Name:<span class="red">*</span></label>
+								<input type="text" id="lastname" name="lastname" required aria-required="true">
 								Gender: <select id="gender" name="gender">
 								  <option value=""></option>
 								  <option value="m">Male</option>
@@ -200,11 +209,24 @@
 			});
 		</script>
 		<script>
-			var fname, lname, gender, country;
+			var fname, lname, gender, country, email, pwd1, pwd2;
 			function _(x){
 				return document.getElementById(x);
 			}
 			function processPhase1(){
+				email = _("email").value;
+				pwd1 = _("password").value;
+				pwd2 = _("password2").value;
+				if(email.length > 2){
+					_("phase1").style.display = "none";
+					_("phase2").style.display = "block";
+					_("progressBar").value = 33;
+					_("status").innerHTML = "Phase 2 of 3";
+				} else {
+					alert("All Fields are Required");	
+				}
+			}
+			function processPhase*(){
 				fname = _("firstname").value;
 				lname = _("lastname").value;
 				if(fname.length > 2 && lname.length > 2){
@@ -213,7 +235,7 @@
 					_("progressBar").value = 33;
 					_("status").innerHTML = "Phase 2 of 3";
 				} else {
-					alert("Please fill in the fields");	
+					alert("All Fields are Required");	
 				}
 			}
 			function gobackPhase1(){
