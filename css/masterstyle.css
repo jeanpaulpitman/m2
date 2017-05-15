@@ -819,13 +819,26 @@ div.panel {
   border: 0;
   }
 
-  
+/* Text and headings*/
+
+.heading-right {
+	text-align: right;
+}
+
 /*Containers*/
 	
 /*generic container*/
 .container {
 	margin: 0 ;
 	}
+
+.extra-margin-left {
+	margin-left: 5em;
+}
+
+.extra-margin-right {
+	margin-right: 5em;
+}
 
 /* Details Container*/
 .container-details {
