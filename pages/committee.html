@@ -94,7 +94,8 @@
                     <h6>Breadcrumb</h6>
                     <ul class="breadcrumb">
                         <li><a href="../index.html">Home</a></li>
-                        <li><a href="committee.html">Committee</a></li>
+						<li><a href="../about_bro.html">About Us</a></li>
+						<li>Committee</li>
                     </ul>
                     <section>
                         <h1>Life Members</h1>
@@ -224,22 +225,6 @@
             {
                 $( '#nav li:has(ul)' ).doubleTapToGo();
             });
-        </script>
-        <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-
-            for (i = 0; i < acc.length; i++) {
-                acc[i].onclick = function(){
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
-                    if (panel.style.display === "block") {
-                        panel.style.display = "none";
-                    } else {
-                        panel.style.display = "block";
-                    }
-                }
-            }
         </script>
     </body>
 </html>
