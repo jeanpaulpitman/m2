@@ -1003,7 +1003,7 @@ div.panel {
 	}
 	
 .block-forms input, select , textarea {
-    width: 62%;
+    width: 68%;
     padding: .75em 1.125em;
     margin: .5em 0;
     display: inline-block;
@@ -1018,7 +1018,7 @@ div.panel {
 	font-size:1.3em;
 	text-align:right;
 	vertical-align:top;
-	width: 35%;
+	width: 30%;
 }
 	
 @media only screen and (max-width:400px){
@@ -1036,6 +1036,30 @@ div.panel {
 #newsletter input {
 	width:15%;
 }
+
+ #child-1 label {
+	width:12%;
+ }
+ 
+ #child-1 input{
+	width:36%;
+ }
+ 
+ #child-2 label {
+	width:12%;
+ }
+ 
+ #child-2 input{
+	width:36%;
+ }
+ 
+ #child-3 label {
+	width:12%;
+ }
+ 
+ #child-3 input{
+	width:36%;
+ }
  
 .block-forms input[type=submit] {
     width: 100%;
@@ -1076,5 +1100,41 @@ div.panel {
 	-o-transform: scale(2); /* Opera */
 	padding: .5em;
 	}
+
+/*Multi Step Forms*/
+form#multiphase{ 
+	padding:1em; 
+	width:90%; 
+	max-width:60em;
+	}
+	
+form#multiphase > #phase2, #phase3, #show_all_data{ 
+	display:none; 
+	}
+#progressBar {
+	width:90%;
+	position:center;
+}
+
+.pricing {
+	padding:.5em;
+	background-color:teal;
+	color: white;
+}
+
+.continue, .back {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: .75em 1.125em;
+    margin: .5em 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	}
+	
+.right-side {
+	float:right;
+}	
 	
 	
