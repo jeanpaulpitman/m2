@@ -1059,6 +1059,21 @@ div.panel {
 	width:15%;
 }
 
+#pledge-once label {
+	width:80%;
+}
+
+#pledge-once input {
+	width:15%;
+}
+
+#pledge-name label {
+	width:80%;
+}
+
+#pledge-name input {
+	width:15%;
+}
  #child-1 label {
 	width:12%;
  }

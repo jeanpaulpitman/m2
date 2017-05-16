@@ -144,42 +144,49 @@
 						<h2>Donate Online</h2>
 						<section class="block-forms" id="form-donate">
 						<form action="https://formspree.io/jeanpaul.pitman@my.jcu.edu.au" method="post">
-							<div id="name">
-								<label for="name">Contact person name:<span class="red">*</span></label>
-								<input type="text" name="name" required aria-required="true">
-							</div>
-							<div id="tel">
-								<label for="telephone">Contact phone number:<span class="red">*</span></label>
-								<input type="tel" name="telephone" required aria-required="true">
-							</div>
-							<div id="email">
-								<label for="email">Contact email address:<span class="red">*</span></label>
-								<input type="email" name="email" required aria-required="true">
-							</div>
-							<div id="Reason">	
-								<label for="reason">Contact reason:<span class="red">*</span></label>
-								<select name="reason">
-									<option value="vip-tickets">Competition VIP Tickets</option>
-									<option value="feedback-Complaint">Feedback or Complaint</option>
-									<option value="venue-hire">Venue Hire or Function</option>
-									<option value="media">Media</option>
-									<option value="sponsor">Sponsorship</option>
-									<option value="employment">Employment</option>
-									<option value="other">Other</option>
+							<div id="donate-type">	
+								<label for="donate-type">Donation/Pledge:<span class="red">*</span></label>
+								<select name="donate-type">
+									<option value="benefactor">Benefactor Pledge ($200 min)</option>
+									<option value="donation">Donation</option>
 								</select>
 							</div>
-							<div id="method">	
-								<label for="method">Contact method:<span class="red">*</span></label>
-								<select name="method">
-									<option value="telp">Telephone</option>
-									<option value="email">Email</option>
-									<option value="meeting">Request meeting</option>
-								</select>
+							<div>
+							<fieldset>
+							<legend>Pledge Term</legend>
+							<div id = "pledge-once">
+								<label for = "pledge-once">Make a one-off donation</label>
+								<input type = "radio"
+										name = "pledge"
+										value = "one-off_donation"
+										checked = "checked" />
+								<label for = "pledge-thrice">Pledge my support for three years beginning with this donation. Please contact me to confirm details.</label> 
+								<input type = "radio"
+										name = "pledge"
+										id = "pledge-thrice"
+										value = "3_years" />	
+							</fieldset>										
 							</div>
-							<div id="inquiry">
-								<label for="inquiry">Details of your inquiry...<span class="red">*</span></label>
-								<textarea name="inquiry" rows="8"></textarea>
+							<div id="amount">
+								<label for="amount">Amount ($)<span class="red">*</span></label>
+								<input type="text" name="amount" required aria-required="true">
 							</div>
+							<div id = "pledge-name">
+								<label for = "pledge-anon">I wish my donation to be listed as “Anonymous”</label>
+								<input type = "radio"
+										name = "acknowledged"
+										value = "anonymous"	/>
+								<label for = "use-name">I would like my name to appear as follows:</label> 
+								<input type = "radio"
+										name = "acknowledged"
+										id = "use-name"
+										value = "use_name" 
+										checked = "checked" />	         	
+							</div>
+							<div id="ackn-name">
+								<label for="amount">Acknowledgement name to appear as</label>
+								<input type="text" name="amount">
+							</div>								
 							<div id="newsletter">
 								<label for="join-newsletter">Please check to join our mailing list to receive special offers and invitations to VIP events:</label>
 								<input type="checkbox" checked="checked" name="join-newsletter" value="Accepted">
