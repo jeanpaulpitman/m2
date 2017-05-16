@@ -93,12 +93,13 @@
 			<main class="silky-content">
 				<section class="container-details">
 					<h6>Main Content</h6>
+					<section>
 						<h6>Breadcrumb</h6>
 						<ul class="breadcrumb">
 							<li><a href="../index.html">Home</a></li>
 							<li>Support</li>
 						</ul>
-						<div id="benefactor" class="teal">
+						<div id="benefactor">
 							<h1>Support Us</h1>
 							<h2>North Queensland Ensembles Inc. Barrier Reef Orchestra Benefactor’s Roll</h2>
 							<ul class="list-events">
@@ -140,7 +141,7 @@
 						<p><strong>By phone:</strong>   Please call Simon McConnell on 0418 776961, and have your creditcard details handy.</p>
 						<hr>
 						</div>
-					<section class="block-forms teal" id="form-donate">
+						<section class="block-forms teal" id="form-donate">
 						<h2>Donate Online</h2>
 						<form action="https://formspree.io/jeanpaul.pitman@my.jcu.edu.au" method="post">
 							<div id="donate-type">	
@@ -150,21 +151,22 @@
 									<option value="donation">Donation</option>
 								</select>
 							</div>
+						<div>
 							<fieldset>
 							<legend>Pledge Term</legend>
 							<div id = "pledge-once">
-								<label for = "pledge-once">Make a one-off donation:</label>
+								<label for = "pledge-once">Make a one-off donation</label>
 								<input type = "radio"
 										name = "pledge"
 										value = "one-off_donation"
 										checked = "checked" />
-								<label for = "pledge-thrice">Pledge my support for three years beginning with this donation:<br>(Please contact me to confirm details.)</label> 
+								<label for = "pledge-thrice">Pledge my support for three years beginning with this donation. Please contact me to confirm details.</label> 
 								<input type = "radio"
 										name = "pledge"
 										id = "pledge-thrice"
-										value = "3_years" />									
+										value = "3_years" />	
+							</fieldset>										
 							</div>
-							</fieldset>	
 							<div id="amount">
 								<label for="amount">Amount: ($)<span class="red">*</span></label>
 								<input type="text" name="amount" required aria-required="true">
@@ -172,7 +174,7 @@
 							<fieldset>
 							<legend>Acknowledgement</legend>
 							<div id = "pledge-name">
-								<label for = "pledge-anon">I wish my donation to be listed as “Anonymous”:</label>
+								<label for = "pledge-anon">I wish my donation to be listed as “Anonymous”</label>
 								<input type = "radio"
 										name = "acknowledged"
 										value = "anonymous"	/>
@@ -199,20 +201,23 @@
 							<p><small>North Queensland Ensembles Inc. takes your data privacy seriously, you can find our <a href="privacy.html" target="_blank">Privacy policy here.</a></small></p>
 							<hr>
 							</div>
+						</div>
 						</form>
+						</section>
 					</section>	
-				</section>
-			</main>	
-			<aside class="silky-ads">
-				<section>
-					<h6>Advertising</h6>
-					<div class="adsnav">
-						<a href="contactus.html">Contact Us</a>
-						<a href="play_with_us.html">Play with Us</a>
-						<a href="signup.html">Become a Member and save $$</a>
-					</div>
-				</section>
-			</aside>
+				</section>	
+			</main>
+		</div>
+		<aside class="silky-ads">
+			<section>
+				<h6>Advertising</h6>
+				<div class="adsnav">
+					<a href="contactus.html">Contact Us</a>
+					<a href="play_with_us.html">Play with Us</a>
+					<a href="signup.html">Become a Member and save $$</a>
+				</div>
+			</section>
+		</aside>
 		</div>
 		<footer class="silky-footer">
 			<section id="footerlinks">
@@ -237,6 +242,22 @@
 			{
 				$( '#nav li:has(ul)' ).doubleTapToGo();
 			});
+		</script>
+		<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+				acc[i].onclick = function(){
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+						panel.style.display = "none";
+					} else {
+						panel.style.display = "block";
+					}
+				}
+			}
 		</script>
 	</body>
 </html>

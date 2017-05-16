@@ -1050,6 +1050,15 @@ div.panel {
    }
     
 }
+/* Backgrounds*/
+.teal {
+	background-color: teal;
+	color: white;
+}
+
+.blue {
+	background-color: teal;
+}
 
 #newsletter label {
 	width:80%;
