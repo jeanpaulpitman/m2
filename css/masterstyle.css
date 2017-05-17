@@ -850,7 +850,7 @@ div.panel {
 	overflow; hidden;
 	}
 
-.container-details h1,h2 {
+.container-details h1,h2,h4 {
 	text-align: left;
     text-indent: .5em;
 }
@@ -931,6 +931,27 @@ div.panel {
 
 /*Buttons*/
 
+.next-event {
+	margin-top: 0;
+}
+
+.next-event a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: .75em 1em;
+	text-decoration: none;
+	font-family:'artifikamedium';
+	font-size: 1.25em;
+	cursor: pointer; 
+	background-color: red;
+	border-radius: 15px;
+	margin-left:25%;
+	margin-top:0;
+	margin-bottom:1.5em;
+	width:50%;
+}
+
 
 /*Span clases*/	
 
@@ -939,8 +960,7 @@ div.panel {
 .red {
 	color:red;
 	}	
- 	
-	
+
 /*Table Styles*/
 
 
