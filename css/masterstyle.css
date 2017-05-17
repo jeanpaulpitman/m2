@@ -962,7 +962,8 @@ div.panel {
 	}	
  	
 .300per {
-	fontsize:300%;
+	font-size:300%;
+	margin-bottom:2em;
 }	
 
 /*Table Styles*/
