@@ -92,7 +92,7 @@
 			<main class="silky-content">
 				<section class="container-privacy">
 					<h6>Main Content</h6>
-					<section class="block-forms">
+					<section class="block-forms max60">
 						<h6>Breadcrumb</h6>
 						<ul class="breadcrumb">
 							<li><a href="../index.html">Home</a></li>
@@ -103,17 +103,28 @@
 						<p>The Barrier Reef Orchestra is seeking talented players to join the Orchestra and Ensembles. Contact us today!</p>
 						<h3>Want to Conduct the Orchestra?</h3>
 						<p>BRO Orchestra deilghts in welcoming Conductors and Guest Artists from around the globe, BRO Orchestra encourages all Conductors and Guest Artists to contact us below. </p>
+						<section class="teal">
+						<h2>Apply Online</h2>
 						<form action="https://formspree.io/jeanpaul.pitman@my.jcu.edu.au" method="post">
+							<div id="Reason">	
+								<label for="enquiry">Enquiry Type:<span class="red">*</span></label>
+								<select name="enquiry">
+									<option value="play-with-bro">Play with Orchestra</option>
+									<option value="conduct-bro">Conduct the Orchestra</option>
+									<option value="guest-artist">Guest Artist</option>
+									<option value="other">Other</option>
+								</select>
+							</div>
 							<div id="name">
-								<label for="name">Contact person name:<span class="red">*</span></label>
+								<label for="name">Your name:<span class="red">*</span></label>
 								<input type="text" name="name" required aria-required="true">
 							</div>
 							<div id="tel">
-								<label for="telephone">Contact phone number:<span class="red">*</span></label>
+								<label for="telephone">Phone number:<span class="red">*</span></label>
 								<input type="tel" name="telephone" required aria-required="true">
 							</div>
 							<div id="email">
-								<label for="email">Contact email address:<span class="red">*</span></label>
+								<label for="email">Email address:<span class="red">*</span></label>
 								<input type="email" name="email" required aria-required="true">
 							</div>
 							<div id="method">	
@@ -121,15 +132,6 @@
 								<select name="method">
 									<option value="telp">Telephone</option>
 									<option value="email">Email</option>
-								</select>
-							</div>
-							<div id="Reason">	
-								<label for="reason">Contact reason:<span class="red">*</span></label>
-								<select name="reason">
-									<option value="play-with-bro">Play with Orchestra</option>
-									<option value="conduct-bro">Conduct the Orchestra</option>
-									<option value="guest-artist">Guest Artist</option>
-									<option value="other">Other</option>
 								</select>
 							</div>
 							<div id="artist">
@@ -144,7 +146,7 @@
 								<label for="exp">Experience<span class="red">*</span></label>
 								<textarea name="exp" rows="8" required aria-required="true"></textarea>
 							</div>
-							<div id="newsletter">
+							<div id="newsletter" class="width8015">
 								<label for="join-newsletter">Please check to join our mailing list to receive special offers and invitations to VIP events:</label>
 								<input type="checkbox" checked="checked" name="join-newsletter" value="Accepted">
 							</div>
@@ -155,7 +157,7 @@
 							<hr>
 							</div>
 						</form>
-						<section class="teal max60">
+						<section class="max60">
 							<h2>Contact us direct</h2>
 							<ul>
 								<li>Phone: <a href="tel:+61747222789">47 222 789</a></li>
@@ -173,7 +175,7 @@
 				<div class="adsnav">
 					<a href="contactus.html">Contact Us</a>
 					<a href="play_with_us.html">Play with Us</a>
-					<a href="signup.html">Become a Member and save $$</a>
+					<a href="memberships.html">Become a Member and save $$</a>
 				</div>
 			</section>
 			</aside>
