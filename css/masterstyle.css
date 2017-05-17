@@ -1088,29 +1088,21 @@ div.panel {
 	width:15%
 }
 
+.width1236 label {
+	width:12%;
+}
 
- #child-1 label {
-	width:12%;
- }
- 
- #child-1 input{
+.width1236 input {
 	width:36%;
- }
+}
+
+.width5050 {
+	float:left;
+	width:50%;
+}
  
- #child-2 label {
-	width:12%;
- }
- 
- #child-2 input{
-	width:36%;
- }
- 
- #child-3 label {
-	width:12%;
- }
- 
- #child-3 input{
-	width:36%;
+ .width100 {
+	width:100%;
  }
  
 .block-forms input[type=submit] {
