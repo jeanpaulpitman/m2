@@ -92,7 +92,7 @@
 			<main class="silky-content">
 				<section class="container-privacy">
 					<h6>Main Content</h6>
-					<section class="block-forms">
+					<section class="block-forms max60">
 						<h6>Breadcrumb</h6>
 						<ul class="breadcrumb">
 							<li><a href="../index.html">Home</a></li>
@@ -101,16 +101,28 @@
 						</ul>
 						<h1>Become a Member</h1>
 						<p>North Queensland Ensembles Inc.(NQE) is the administrative body for the Barrier Reef Orchestra, by becomining a member you are supporting the Orchestra which was formed in 2000.</p>
-						<h3>Members Benefits</h3>
-						<p>Discounted tickets for all NQE events.Priority seeting. Exclusive VIP Event invitations.</p>
-						<h4>Membership Pricing</h4>
+						<section class="width5050 teal">
+						<h2>Members Benefits</h2>
+						<ul>
+							<li>Discounted tickets for all NQE events</li>
+							<li>Priority seeting</li>
+							<li>Exclusive VIP Event invitations</li>
+							<li>Monthly Newsletter</li>
+						</ul><br>
+						</section>
+						<section class="width5050 teal">
+						<h2>Membership Pricing</h2>
 						<ul>
 							<li>Adult: $30</li>
 							<li>Family: $60*</li>
 							<li>Full Time student or under 18: $15</li>
 							<li>Concession: $15**</li>
-						</ul>
+						</ul><br>
+						</section>
+						<section class="width100">
 						<small><p>*Family memberships avaliable to a group of two adults and three persons under the age of 18 all of whom reside at the same address. **Concession avaliable to persons in reciept of Centrelink pension card.</p></small>
+						<hr>
+						</section>
 						<form action="https://formspree.io/jeanpaul.pitman@my.jcu.edu.au" method="post" name="mainForm" id="mainForm" >
 							<h4>Membership Application North Queensland Ensembles Inc.</h4>
 							<div id="mem-type">	
@@ -127,10 +139,6 @@
 								<label for="card#">Student or Concession card:</label>
 								<input type="text" name="card#">
 							</div>
-							<div id="nameTick">
-								<label for="name">Your Name: <img src="../cross.png" alt="X" name="nameTick" width="12" height="12"/></label>
-								<input type="text" name="name" id="name" size="40" autofocus onKeyUp="nameEntered(this);"/>
-							</div>
 							<div id="fam_name">
 								<label for="fam_name">Family name:<span class="red">*</span></label>
 								<input type="text" name="fam_name" required aria-required="true">
@@ -141,22 +149,22 @@
 							</div>
 							<fieldset>
 							<legend>Children:</legend>
-							<div id="child-1">
-								<label for="child-1">Child 1:</label>
+							<div id="child-1" class="width1236">
+								<label for="child-1">Name 1:</label>
 								<input type="text" name="child-1">
-								<label for="child-1-dob">DOB:</label>
+								<label for="child-1-dob">DOB 1:</label>
 								<input type="date" name="child-1">
 							</div>
-							<div id="child-2">
-								<label for="child-2">Child 2:</label>
+							<div id="child-2" class="width1236">
+								<label for="child-2">Name 2:</label>
 								<input type="text" name="child-2">
-								<label for="child-1-dob">DOB:</label>
+								<label for="child-1-dob">DOB 2:</label>
 								<input type="date" name="child-1">
 							</div>
-							<div id="child-3">
-								<label for="child-3">Child 3:</label>
+							<div id="child-3" class="width1236">
+								<label for="child-3">Name 3:</label>
 								<input type="text" name="child-3">
-								<label for="child-1-dob">DOB:</label>
+								<label for="child-1-dob">DOB 3:</label>
 								<input type="date" name="child-1">
 							</div>
 							</fieldset>
@@ -168,48 +176,36 @@
 								<label for="email">Contact email address:<span class="red">*</span></label>
 								<input type="email" name="email" required aria-required="true">
 							</div>
-							<div id="addr">
-								<label for="addr">Postal Address:</label>
-								<input type="text" name="child-1">
+							<div id="address">
+								<label for="address">Postal address:</label>
+								<textarea name="address" rows="4"></textarea>
 							</div>
 							<div id="post-code">
 								<label for="post-code">Post Code/Zip:</label>
 								<input type="text" name="post-code">
 							</div>
 							<div id="method">	
-								<label for="method">Contact method:<span class="red">*</span></label>
+								<label for="method">Best contact:<span class="red">*</span></label>
 								<select name="method">
 									<option value="telp">Telephone</option>
 									<option value="email">Email</option>
 									<option value="post">Post</option>
 								</select>
 							</div>
-							<div id="Reason">	
-								<label for="reason">Contact reason:<span class="red">*</span></label>
-								<select name="reason">
-									<option value="play-with-bro">Play with Orchestra</option>
-									<option value="conduct-bro">Conduct the Orchestra</option>
-									<option value="guest-artist">Guest Artist</option>
-									<option value="other">Other</option>
-								</select>
-							</div>
-							
-							<div id="exp">
-								<label for="exp">Experience<span class="red">*</span></label>
-								<textarea name="exp" rows="8" required aria-required="true"></textarea>
-							</div>
-							<div id="newsletter">
+							<div id="newsletter" class="width8015">
 								<label for="join-newsletter">Please check to join our mailing list to receive special offers and invitations to VIP events:</label>
 								<input type="checkbox" checked="checked" name="join-newsletter" value="Accepted">
 							</div>
 							<div class="button">
-								<input type="submit" value="Submit Request">
+								<input type="submit" value="Secure checkout via Paypal">
+							<section class="teal">
 							<hr>
 							<p><small>North Queensland Ensembles Inc. takes your data privacy seriously, you can find our <a href="privacy.html" target="_blank">Privacy policy here.</a></small></p>
 							<hr>
+							</section>
 							</div>
 						</form>
-						<section>
+						<section class="teal">
 							<h2>Contact us direct</h2>
 							<ul>
 								<li>Phone: <a href="tel:+61747222789">47 222 789</a></li>
