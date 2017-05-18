@@ -120,7 +120,7 @@ a:active { color: teal; }
 
 #header  {
 	color: #fff;
-	background-color: rgba(1, 84, 147, 0.7);
+	background-color: rgba(0, 185, 192, 0.8);
 	padding:.5em .5em;
 	text-align: left;
 	}
@@ -171,7 +171,7 @@ a:active { color: teal; }
 }
 
 #copyright   {
-	background-color:#015493;
+	background-color:#00a4ab;
 	clear:both;
 	color:white;
 	text-align:center;
@@ -181,7 +181,7 @@ a:active { color: teal; }
 	}
 	
 #footerlinks   {
-	background-color:#015493;
+	background-color:#00a4ab;
 	clear:both;
 	color:white;
 	text-align:center;
@@ -749,7 +749,7 @@ ul.breadcrumb li a:hover {
 }
 
 .gallery figure{
-    width: calc(100% / 4);
+    width: calc(100% / 3);
     float: left;
     position: relative;
     margin-bottom: 1rem;
@@ -783,18 +783,6 @@ ul.breadcrumb li a:hover {
     text-align: center;
     padding: .7rem;
     margin: 0 1rem;
-}
-
-@media only screen and (max-width:1024px){
-.gallery figure{
-    width: calc(100% /3);
-    }
-}
-
-@media only screen and (max-width:840px){
-.gallery figure{
-    width: calc(100% /3);
-    }
 }
 
 @media only screen and (max-width:640px){
@@ -1135,7 +1123,7 @@ div.panel {
 }
 /* Backgrounds*/
 .teal {
-	background-color: teal;
+	background-color: #00a4ab;
 	color: white;
 }
 
