@@ -1132,10 +1132,6 @@ div.panel {
 	max-width:62em;
 }
 
-.max70 {
-	max-width:70em;
-}
-
 .width8015 label {
 	width:80%
 }
@@ -1157,11 +1153,11 @@ div.panel {
 	width:50%;
 }
  
- .width100 {
+.width100 {
 	width:100%;
  }
  
- .marginright {
+.marginright {
 	 margin-right:.5em;
 	 margin-bottom:.5em;
  }
@@ -1206,42 +1202,3 @@ div.panel {
 	-o-transform: scale(2); /* Opera */
 	padding: .5em;
 	}
-
-/*Multi Step Forms*/
-form#multiphase{ 
-	padding:1em; 
-	width:90%; 
-	max-width:60em;
-	}
-	
-form#multiphase > #phase2, #phase3, #show_all_data{ 
-	display:none; 
-	}
-	
-#progressBar {
-	width:90%;
-	margin:auto auto;
-}
-
-.pricing {
-	padding:.5em;
-	background-color:teal;
-	color: white;
-}
-
-.continue, .back {
-    width: 20%;
-    background-color: #4CAF50;
-    color: white;
-    padding: .75em 1.125em;
-    margin: .5em 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-	}
-	
-.right-side {
-	float:right;
-}	
-	
-	
