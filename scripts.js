@@ -79,12 +79,13 @@ function setColourBasedOnLength(name, minValue) {
 // when name is entered, set tick image, say "hi" by writing to the page using innerHTML
 // innerHTML can be useful for debugging messages, since it doesn't make a modal window like alert() does.
 function nameEntered(name) {
+    document.getElementById("output").innerHTML = "Hi " + name.value;
     if (name.value != "") {
-        document.mainForm.nameTick.src = "../tick.png";
+        document.mainForm.nameTick.src = "tick.png";
         document.mainForm.nameTick.alt = "tick";
     }
     else {
-        document.mainForm.nameTick.src = "../cross.png";
+        document.mainForm.nameTick.src = "cross.png";
         document.mainForm.nameTick.alt = "cross";
     }
 }
