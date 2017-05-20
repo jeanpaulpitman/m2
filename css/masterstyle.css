@@ -109,7 +109,7 @@ th, td	{
 
 						
 a:link { color: #FE9920; }
-a:visited { color: white; }
+a:visited { color: gold; }
 a:focus { color: black; }
 a:hover { color: #5DBC31; }
 a:active { color: teal; }
@@ -942,12 +942,16 @@ div.panel {
 	border-radius: 15px;
 	margin:2%;
 	margin-top:2em;
+	padding:.5em;
 	
 }
 
-.home_article,
-.home_news h2 {
+.home_article h2 a,
+.home_news h2 a{
 	text-align:center;
+	text-decoration:none;
+	color:black;
+	margin-left:.5em;
 	
 }
 
@@ -968,17 +972,19 @@ div.panel {
 
 .home_article a {
 	cursor:pointer;
+	text-decoration:none;
+	color:black;
 	}
 	
 /* Floating grid for home screen*/
 .float {
 	display:block;
 	float:left;
-	width: calc(90%/2)	
+	width: calc(80%/2)	
 	
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:500px){
 .float {
     width:100%;
    }
@@ -1005,6 +1011,39 @@ div.panel {
 	width:50%;
 }
 
+.more-info a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: .75em 1em;
+	text-decoration: none;
+	font-family:'artifikamedium';
+	font-size: 1.25em;
+	cursor: pointer; 
+	background-color: #00a4ab;
+	border-radius: 15px;
+	margin-left:35%;
+	margin-top:0;
+	margin-bottom:1.5em;
+	width:30%;
+}
+
+.download-files a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: .75em 1em;
+	text-decoration: none;
+	font-family:'artifikamedium';
+	font-size: 1.25em;
+	cursor: pointer; 
+	background-color: #00a4ab;
+	border-radius: 15px;
+	margin-left:5%;
+	margin-top:0;
+	margin-bottom:1.5em;
+	width:50%;
+}
 
 
 /*Span clases*/	
@@ -1128,6 +1167,13 @@ div.panel {
 	background-color: #00a4ab;
 	color: white;
 }
+
+.container-privacy figcaption{
+    text-align: left;
+    padding: .7rem;
+    margin: 0 1rem;
+}
+
 
 /*set Specific widths/max widths */
 .max60 {
