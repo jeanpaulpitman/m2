@@ -916,6 +916,11 @@ div.panel {
 	padding:.5em;
 }
 
+.container-details figcaption a{
+    text-decoration:none;
+	color:white;
+}
+
 .container-privacy {
 	background-color:white;
 	border-radius: 15px;
@@ -1173,7 +1178,6 @@ div.panel {
     padding: .7rem;
     margin: 0 1rem;
 }
-
 
 /*set Specific widths/max widths */
 .max60 {
