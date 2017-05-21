@@ -170,14 +170,19 @@
 								<input type="date" name="child-1">
 							</div>
 							</fieldset>
-							<div id="tel">
-								<label for="telephone">Contact phone number:<span class="red">*</span></label>
-								<input type="tel" name="telephone" required aria-required="true">
-							</div>
 							<div id="email">
-								<label for="email">Contact email address:<span class="red">*</span></label>
+								<label for="email">Email address:<span class="red">*</span><br>(User Name)</label>
 								<input type="email" name="email" required aria-required="true">
 							</div>
+							<div id="pword">
+								<label for="pword">Password:<span class="red">*</span><br>(8 - 12 characters)</label>
+								<input type="password" name="pword" minlength="8" maxlength="12"required aria-required="true">
+							</div>
+							<div id="tel">
+								<label for="telephone">Phone number:<span class="red">*</span></label>
+								<input type="tel" name="telephone" minlength="8" required aria-required="true">
+							</div>
+							
 							<div id="address">
 								<label for="address">Postal address:</label>
 								<textarea name="address" rows="4"></textarea>
