@@ -745,14 +745,14 @@ ul.breadcrumb li a:hover {
 .gallery section{
     width:100%;
     box-shadow: 0 0 10px 2px #ccc;
-    padding: 1rem 0;
+    padding: 1em 0;
 }
 
 .gallery figure{
     width: calc(100% / 3);
     float: left;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 .gallery section::after, .gallery section::before{
@@ -767,8 +767,8 @@ ul.breadcrumb li a:hover {
 .gallery figure a{
     display: block;
     height: 100%;
-    width: calc(100% - 2rem);
-    margin-left: 1rem;
+    width: calc(100% - 2em);
+    margin-left: 1em;
 }
 
 .gallery figure img{
@@ -781,8 +781,8 @@ ul.breadcrumb li a:hover {
     background: teal;
     color: #fff;
     text-align: center;
-    padding: .7rem;
-    margin: 0 1rem;
+    padding: .7em;
+    margin: 0 1em;
 }
 
 @media only screen and (max-width:640px){
@@ -1212,7 +1212,11 @@ div.panel {
 .paddingtop {
 	padding-top:1em;
 }
- 
+
+.clearboth {
+	clear:both;
+}
+
 .block-forms input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
