@@ -678,6 +678,7 @@ html	{
 /* Content nav*/
 .content_nav {
 	overflow: hidden;
+	clear: left;
 	}	
 	
 .content_nav a {
