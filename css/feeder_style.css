@@ -32,7 +32,7 @@ nav ul {
 nav ul li {
     background-color: lightslategray;
     display: inline;
-    width: 17%;
+    width: 16%;
     float: left;
     margin: 0;
     border: 0.1em solid midnightblue;
@@ -48,16 +48,50 @@ section {
 img {
     width: 100%;
 }
+
+figcaption {
+}
+
+.red {
+	color:red;
+}
+
 .container {
     margin: 2em;
     padding: 2em;
 }
 .imagebox {
     display: block;
-    width: 30%;
-    border: 1px solid #3c3f41;
+    width: 38%;
 }
+
 .image_right {
     float: right;
-    margin-left: 2em;
+    margin-left: 1em;
 }
+
+.feeder-link a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: .75em 1em;
+	text-decoration: none;
+	font-family:'artifikamedium';
+	font-size: 1.25em;
+	cursor: pointer; 
+	background-color: red;
+	border-radius: 15px;
+	margin-left:30%;
+	margin-top:2em;
+	margin-bottom:1em;
+	width:40%;
+}
+
+.container-reading {
+	background-color:white;
+	border-radius: 15px;
+	padding:1em;
+	width: 90%;
+	margin: 2em auto;
+	overflow; hidden;
+	}

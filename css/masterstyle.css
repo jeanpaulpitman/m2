@@ -489,6 +489,7 @@ html	{
 	font-size:140%;
 	}
 
+	/* MEDIA QUERIES*/
 @media (min-width: 400px) {
 	
 	.topnav a:last-child {
@@ -537,7 +538,6 @@ html	{
 
 }  
 
-/* MEDIA QUERIES*/
 @media (min-width: 769px) {
 	.topnav a {
 	font-size:100%;
@@ -786,6 +786,7 @@ ul.breadcrumb li a:hover {
     margin: 0 1em;
 }
 
+/* MEDIA QUERIES*/
 @media only screen and (max-width:640px){
 .gallery figure{
     width: calc(100% /2);
@@ -922,6 +923,7 @@ div.panel {
 	color:white;
 }
 
+/* Privacy Container, Formal Text, no text indent*/
 .container-privacy {
 	background-color:white;
 	border-radius: 15px;
@@ -933,6 +935,12 @@ div.panel {
 	
 .container-privacy p {
 	padding:.5em;
+}
+
+.container-privacy figcaption{
+    text-align: left;
+    padding: .7rem;
+    margin: 0 1rem;
 }
 
 /*Next Event Highlight*/
@@ -990,6 +998,7 @@ div.panel {
 	
 }
 
+/* MEDIA QUERIES*/
 @media only screen and (max-width:500px){
 .float {
     width:100%;
@@ -1068,9 +1077,7 @@ div.panel {
 	width:50%;
 }
 
-
 /*Span clases*/	
-
 
 /*Red Text*/	
 .red {
@@ -1177,7 +1184,8 @@ div.panel {
 	vertical-align:top;
 	width: 30%;
 }
-	
+
+/* MEDIA QUERIES*/	
 @media only screen and (max-width:400px){
 .block-forms label, input, select , textarea  {
     width:100%;
@@ -1185,17 +1193,14 @@ div.panel {
    }
     
 }
+
 /* Backgrounds*/
 .teal {
 	background-color: #00a4ab;
 	color: white;
 }
 
-.container-privacy figcaption{
-    text-align: left;
-    padding: .7rem;
-    margin: 0 1rem;
-}
+
 
 /*set Specific widths/max widths */
 .max60 {
