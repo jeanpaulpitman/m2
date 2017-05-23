@@ -1,0 +1,48 @@
+/*
+    <!--Css stylesheet for feederpage-->/
+ */
+
+body {
+    background-color: midnightblue;
+    color: #3c3f41;
+
+}
+main {
+    background-color: lightslategray;
+    width: 60%;
+    margin: auto;
+    padding: 0;
+}
+header {
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em 0 1em 0;
+}
+h1 {
+    font-size: 3em;
+}
+nav {
+    margin: 0;
+    text-align: center;
+}
+nav ul {
+    margin: 0;
+}
+nav ul li {
+    background-color: lightslategray;
+    display: inline;
+    width: 17%;
+    float: left;
+    margin: 0;
+    border: 0.1em solid midnightblue;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+section {
+    clear: both;
+}
+.container {
+    margin: 2em;
+    padding: 2em;
+}
