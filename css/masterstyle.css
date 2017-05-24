@@ -115,6 +115,7 @@ a:hover { color: #5DBC31; }
 a:active { color: teal; }
 			
 
+a[target='_blank']::after {content: '\2750';}
 			
 /* Main id elements*/
 

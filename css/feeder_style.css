@@ -52,6 +52,8 @@ img {
 figcaption {
 }
 
+a[target='_blank']::after {content: '\2750';}
+
 .red {
 	color:red;
 }
